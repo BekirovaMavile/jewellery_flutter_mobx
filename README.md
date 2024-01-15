@@ -1,16 +1,32 @@
-# jewellry_shop
+# Магазин ювелирных украшений
+Учебный Flutter проект.
+<br/>
+Бизнес логика реализована с помощью Mobx.
+<br/>
 
-A new Flutter project.
+## :construction: Версии Dart && Flutter
 
-## Getting Started
+```cmd
+doctor --verbose
+[✓] Flutter (Channel stable, 3.16.4, on macOS 14.0 23A344 darwin-arm64, locale ru-RU)
+    • Flutter version 3.16.4 
+    ...
+    • Dart version 3.2.3
+```
+<br/>
+В pubspec.yaml добавлены следующие библиотеки:
 
-This project is a starting point for a Flutter application.
+```yaml
+dependencies:
+flutter:
+sdk: flutter
+#...
+mobx: ^2.2.1
+flutter_mobx: ^2.1.0+1
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.4.0
+  build_runner: ^2.4.6
+```
